@@ -1,0 +1,30 @@
+{
+  "name": "bowe-cli",
+  "version": "1.0.0",
+  "description": "A Command Line Interface to generate simple architectures for building landing pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bowe-td/bowe-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "landing",
+    "pages",
+    "less",
+    "sass"
+  ],
+  "author": "bowe-td",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bowe-td/bowe-cli/issues"
+  },
+  "homepage": "https://github.com/bowe-td/bowe-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0"
+  }
+}
