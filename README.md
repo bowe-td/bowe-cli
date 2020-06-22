@@ -7,3 +7,5 @@ A Command Line Interface to generate simple architectures for building landing p
 ## Contribute
 
 ### Workflow
+
+![BOWE](https://raw.githubusercontent.com/bowe-td/bowe-cli/master/assets/gitflow-bowe-cli.png)
