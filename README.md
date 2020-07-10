@@ -8,10 +8,10 @@ A Command Line Interface to generate simple architectures for building landing p
 
 ```sh
 // with npm
-npm install @bowe/cli
+npm install -g @bowe/cli
 
 // with yarn
-yarn add @bowe/cli
+yarn global add @bowe/cli
 ```
 
 ## Contribute
