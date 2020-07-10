@@ -36,10 +36,15 @@ program
                     name: 'technology',
                     message: 'Qual tecnologia vai utilizar?',
                     choices: ['ReactJS', 'NodeJS', 'React Native']
+                },
+                {
+                    type: 'input',
+                    name: 'upstream',
+                    message: 'Informe a URL do seu repositório:',
                 }
-            ]).then(({ technology }) => {
+            ]).then(({ technology, upstream }) => {
                 const repo = repositoryChooser(technology)
-                git(repo, folder);
+                git(repo, folder, upstream);
             }).catch((e) => {
                 console.error(chalk.red(e.message))
             }).finally(() => {
