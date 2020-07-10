@@ -9,7 +9,7 @@ module.exports = (repo, folder = '', upstream) => {
     cd(folder);
     if (upstream) {
       exec(`git remote set-url origin ${upstream}`)
-      return exec(`git push -u origin ${upstream}`)
+      return exec('git push -u origin master')
     }
     return exec('git remote remove origin')
 }
