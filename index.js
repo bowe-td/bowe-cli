@@ -26,7 +26,7 @@ const repositoryChooser = (technology) => {
 program.version(package.version);
 
 program
-    .command('create [folder]')
+    .command('create <folder>')
     .description('Cria uma pasta com o scaffold de um projeto')
     .action((folder) => {
         inquirer
