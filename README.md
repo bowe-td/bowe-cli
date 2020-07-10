@@ -24,4 +24,4 @@ yarn add @bowe/cli
 
 ### Easy-to-use
 
-![BOWE](https://raw.githubusercontent.com/bowe-td/bowe-cli/master/assets/bowe-cli.gif)
+<img src="(https://raw.githubusercontent.com/bowe-td/bowe-cli/master/assets/bowe-cli.gif)" width="40" height="40" />
