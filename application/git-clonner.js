@@ -1,9 +1,15 @@
-const { exec } = require('shelljs');
+const { cd, exec } = require('shelljs');
 
-module.exports = (repo, folder = '') => {
+module.exports = (repo, folder = '', upstream) => {
     if (!repo) {
         throw new Error('empty repository string');
     }
 
-    return exec(`git clone ${repo} ${folder}`)
+    exec(`git clone ${repo} ${folder}`)
+    cd(folder);
+    if (upstream) {
+      exec(`git remote set-url origin ${upstream}`)
+      return exec(`git push -u origin ${upstream}`)
+    }
+    return exec('git remote remove origin')
 }
