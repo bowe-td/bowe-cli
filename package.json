@@ -2,6 +2,7 @@
   "name": "@bowe/cli",
   "version": "1.0.0",
   "private": false,
+  "preferGlobal": true,
   "description": "A Command Line Interface to generate simple architectures for building landing pages",
   "main": "index.js",
   "scripts": {
